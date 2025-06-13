@@ -20,8 +20,3 @@ echo "basic laravel routes ";
 
 //short form to open a page
 Route::view('/home'  , 'home');
-
-
-// Route::view('(home/{name})' , function($name){
-//   return view('home' , ['name'=>$name]);
-// });
